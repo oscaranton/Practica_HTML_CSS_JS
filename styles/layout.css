@@ -1,0 +1,92 @@
+body {
+    --grid-size: 12;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header > .header__name {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+}
+
+.header > .header__description {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 100vh;
+}
+
+.who {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.who--data {
+  order: 2;
+}
+
+.who--description {
+  order: 1;
+}
+
+.who--image {
+  order: 3;
+}
+
+.study {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

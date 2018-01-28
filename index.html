@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Óscar Antón Galante - CV</title>
+    <link rel="stylesheet" href="./styles/layout.css">
+   <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__title">Óscar Antón Galante</li><li class="nav__item"><a href="#contacto">Contacto</a></li><li class="nav__item"><a href="#sobre-mi">Sobre mi</a></li><li class="nav__item"><a href="#experiencia">Experiencia</a></li><li class="nav__item"><a href="#estudios">Estudios</a></li><li class="nav__item"><a href="#quien-soy">Quién soy</a></li><li class="nav__item nav__item--active"><a href="#">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 class="header__name">Óscar Antón Galante</h1>
+        <div class="header__image"></div>
+        <h2 class="header__description">Curriculum Vitæ</h2>
+    </header>
+
+    <main class="container">
+        <section id="quien-soy" class="section-container">
+            <div class="row-flex">
+                <div class="who">
+                    <h3>¿Quién soy?</h3>
+                    <article class="who--description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur volutpat leo sed interdum. Sed id eros sit amet orci efficitur rutrum ac et lectus. Aenean faucibus sollicitudin consectetur. Morbi eu ipsum ut quam luctus blandit a a urna. Mauris vel cursus leo. Fusce rhoncus vehicula hendrerit. Praesent in est convallis, placerat felis dignissim,malesuada velit. In hac habitasse platea dictumst. Aenean accumsan felis eu rhoncus mattis. Donec bibendum diam tempor, viverra quam ac, sagittis metus. Sed mattis aliquet eleifend. Morbi sollicitudin arcu at orci mollis vulputate.</p>
+                        <img class="who--image--floating" src="./images/Foto_Perfil_5.jpg" alt="Óscar Antón Galante">
+                        <p>Donec consectetur lorem lorem, id accumsan lectus euismod at. Mauris semper dictum egestas. Proin at purus sed nisl euismod rutrum. Phasellus rutrum condimentum iaculis. Etiam et dui eget sem scelerisque lacinia eget id lorem. Integer vitae nisi quam. Vivamus mattis in turpis non iaculis. Nulla at arcu felis.</p>
+                        <p>Vivamus ante justo, aliquet sed eros eget, elementum rhoncus mauris. Proin dolor metus, dignissim vitae placerat at, finibus in nibh. Nullam vel lectus risus. In leo nisi, sodales eu consectetur sit amet, porta et magna. Cras eu nunc a ex vestibulum egestas. Morbi diam quam, fermentum ornare justo sed, placerat malesuada metus. Aliquam elementum pharetra metus, in tempus nisl hendrerit et.</p>
+                        <p>Pellentesque finibus risus sit amet justo scelerisque, at dignissim enim malesuada. Maecenas facilisis imperdiet felis, in vestibulum neque ultrices sed. Phasellus enim urna, aliquet at laoreet a, euismod eu massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc in arcu ac dolor consectetur tristique. Sed ultricies orci finibus aliquet rhoncus. Aenean porta tellus nunc, ut finibus purus dapibus quis.</p>
+                        <p>Nam hendrerit, turpis sed consequat tristique, ipsum nulla venenatis nibh, vehicula molestie ex nisl pellentesque velit. Nunc sagittis non est fringilla fringilla. Morbi fringilla erat vel ultrices tincidunt. Ut neque mauris, scelerisque ut sapien id, lacinia tristique quam. Curabitur pretium viverra purus vel aliquam. Nunc eget luctus risus, a varius velit. Cras volutpat, dolor eu accumsan blandit, massa dui suscipit mi, efficitur fermentum justo mi eget ipsum. Aliquam ultricies sem nec velit luctus, quis dapibus augue facilisis. Ut tristique, leo ut blandit dictum, diam massa suscipit lorem, eu viverra massa ex id ante. Nullam quis eros libero. Vivamus semper orci in sem fringilla, id blandit ligula venenatis.</p>
+                    </article>
+                    <table class="who--data">
+                        <thead>
+                            <tr>
+                                <td colspan="2">Datos personales</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nombre </td>
+                                <td>Óscar Antón Galante</td>
+                            </tr>
+                            <tr>
+                                <td>Fecha de nacimiento</td>
+                                <td>8 de febrero de 1977</td>
+                            </tr>
+                            <tr>
+                                <td>Residencia</td>
+                                <td>Santiago de Compostela</td>
+                            </tr>
+                            <tr>
+                                <td>eMail</td>
+                                <td>
+                                    <a href="mailto:correo@oscaranton.com?subject=Contacto desde la Web con CV">correo@oscaranton.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono</td>
+                                <td>+34 629 645 777</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <figure class="who--image">
+                        <img src="./images/santiago.jpg" alt="Óscar Antón Galante">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="estudios" class="section-container">
+            <div class="row-flex">
+                <div class="study">
+                    <h3>¿Qué he estudiado hasta el momento?</h3>
+                    <div class="study__item">
+                        <p class="study__item--centro">KeepCoding</p>
+                        <p class="study__item--curso">Web StartUp Engineering Bootcamp</p>
+                        <p class="study__item--fecha">2017 - 2018</p>
+                        <a href="https://keepcoding.io" target="_blank" class="study__item--url">keepcoding.io</a>
+                    </div>
+                    <div class="study__item">
+                        <p class="study__item--centro">ICEMD - ESIC</p>
+                        <p class="study__item--curso">Master en Digital Business</p>
+                        <p class="study__item--fecha">2016 - 2017</p>
+                        <a href="https://icemd.com/" target="_blank" class="study__item--url">icemd.com</a>
+                    </div>
+                    <div class="study__item">
+                        <p class="study__item--centro">UOC</p>
+                        <p class="study__item--curso">Postgrado en Marketing</p>
+                        <p class="study__item--fecha">2011 - 2012</p>
+                        <a href="https://uoc.edu" target="_blank" class="study__item--url">uoc.edu</a>
+                    </div>
+                    <div class="study__item">
+                        <p class="study__item--centro">Escuela de Finanzas</p>
+                        <p class="study__item--curso">Master en Banca y Mercados Financieros</p>
+                        <p class="study__item--fecha">2008 - 2009</p>
+                        <a href="http://escueladefinanzas.edu.es" target="_blank" class="study__item--url">escueladefinanzas.edu.es</a>
+                    </div>
+                    <div class="study__item">
+                        <p class="study__item--centro">Universidad de Salamanca</p>
+                        <p class="study__item--curso">Licenciatura en Administración y Dirección de Empresas</p>
+                        <p class="study__item--fecha">1995 - 2002</p>
+                        <a href="https://usal.es" target="_blank" class="study__item--url">usal.es</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia" class="section-container">
+            <div class="row-flex">
+                <div class="work">
+                    <h3>¿Dónde he trabajado y colaborado?</h3>
+                    <div class="work__item">
+                        <p class="work__item--centro">CFR, Auditoría y Asesoría Fiscal</p>
+                        <p class="work__item--puesto">Asesor de Contabilidad Financiera y Auditor de Sistemas de Información</p>
+                        <p class="work__item--fecha">Enero 2017 - Actualidad</p>
+                        <!-- <a href="https://uoc.edu" target="_blank" class="work__url">uoc.edu</a> -->
+                    </div>
+                    <div class="work__item">
+                        <p class="work__item--centro">Estrategia Disruptiva</p>
+                        <p class="work__item--puesto">Consultor en Estrategia Digital</p>
+                        <p class="work__item--fecha">Febrero 2017 - Actualidad</p>
+                        <!-- <a href="https://uoc.edu" target="_blank" class="work__url">uoc.edu</a> -->
+                    </div>
+                    <div class="work__item">
+                        <p class="work__item--centro">Banco EspañaDuero</p>
+                        <p class="work__item--puesto">Director de Oficina</p>
+                        <p class="work__item--fecha">Junio 2005 - Octubre 2016</p>
+                        <!-- <a href="https://uoc.edu" target="_blank" class="work__url">uoc.edu</a> -->
+                    </div>
+                    <div class="work__item">
+                        <p class="work__item--centro">Caja Duero</p>
+                        <p class="work__item--puesto">Comercial Administrativo</p>
+                        <p class="work__item--fecha">Marzo 2001 - Junio 2005</p>
+                        <!-- <a href="https://uoc.edu" target="_blank" class="work__url">uoc.edu</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-mi" class="section-container">
+            <article class="about">
+                <h3>Algunas cosas sobre mi</h3>
+                <p>Id adipisicing exercitation in incididunt ad aliquip cupidatat sint duis mollit eiusmod ex voluptate nostrud. Pariatur consequat nulla eu sit nulla cillum. Occaecat reprehenderit nulla sint nisi nulla ad magna.</p>
+                <p>Amet est dolore non magna. Voluptate magna reprehenderit magna veniam duis officia eu commodo adipisicing do. Amet velit nostrud excepteur non. Laboris quis elit et do qui ad quis laboris nulla exercitation aliquip ullamco.</p>
+                <p>In est elit nisi irure velit fugiat nisi. Amet sint proident id dolore esse occaecat non. Velit ex commodo qui deserunt officia dolor anim incididunt. Do aliquip reprehenderit esse esse tempor aliquip cupidatat cillum labore. Mollit id labore id aute cillum voluptate nisi occaecat veniam voluptate. Elit ipsum non est et sint non consectetur deserunt dolor eu.</p>
+                <video class="about--video" id="sobre-mi--video" autoplay loop onclick="this.paused?this.play():this.pause();">
+                    <!-- Source: https://pixabay.com/es/videos/aeropuerto-nueva-york-avión-7234/ CC0 Licensed-->
+                    <source src="./video/Airport-7234.mp4" type="video/mp4">
+                    <source src="./video/Airport-7234.mp4" type="video/ogg">
+                    <source src="./video/Airport-7234.mp4" type="video/webm">
+                </video>
+                <p>Commodo elit sit magna dolor consectetur est mollit. Lorem duis sit occaecat excepteur. Eiusmod officia pariatur eu excepteur magna sint duis sit ad ut Lorem. Est ullamco labore est ex veniam voluptate ea adipisicing nostrud duis aliqua tempor adipisicing occaecat. Dolore exercitation minim consectetur non officia reprehenderit exercitation nisi ea labore non in pariatur. Quis ut ad elit consequat sint.</p>
+                <p>Voluptate est non nostrud nulla excepteur aliqua deserunt id pariatur. Sunt sint reprehenderit excepteur qui aliquip consectetur. Laboris eu laborum commodo excepteur sit velit labore enim est veniam excepteur ipsum amet proident. Sint commodo esse irure sunt commodo ex aliqua consectetur excepteur do do.</p>
+            </article>
+        </section>
+        <section id="contacto" class="section-container">
+            <div class="contact">
+                <h3>Ponte en contacto conmigo</h3>
+                <form action="contacto" method="get" novalidate>
+                    <div class="contact-sender">
+                        <fieldset class="contact-fieldset">
+                            <legend>
+                                <h4>¿Quién eres?</h4>
+                            </legend>
+                            <input type="text" id="nombre" class="contact-sender--info" name="nombre" placeholder="Nombre" required>
+                            <input type="text" id="apellido" class="contact-sender--info" name="apellido" placeholder="Apellidos" required>
+                            <input type="email" id="email" class="contact-sender--info" name="email" placeholder="Email (ejemplo@dominio.com)" title="Por favor introduce un email válido." required>
+                            <input type="tel" id="telefono" class="contact-sender--info" name="telefono" placeholder="Teléfono (por ej. +34 912345678)" pattern="^\+?\d{0,13}" title="Por favor introduce un número de teléfono válido." required>
+                        </fieldset>
+                    </div>
+                    <div class="contact-origin">
+                        <fieldset class="contact-fieldset">
+                            <legend>
+                                <h4>¿Cómo has sabido de mí?</h4>
+                            </legend>
+                            <div>
+                            <label for="origen-contacto-1">Por un conocido común</label>
+                            <input type="radio" id="origen-contacto-1" name="origin" value="Un conocido común" onclick="eliminoCuadroDeTexto()" required>
+                            <label for="origen-contacto-2">En una búsqueda de Internet</label>
+                            <input type="radio" id="origen-contacto-2" name="origin" value="En una búsqueda de Internet" onclick="eliminoCuadroDeTexto()" required>
+                            <label for="origen-contacto-3">Por una solicitud de empleo</label>
+                            <input type="radio" id="origen-contacto-3" name="origin" value="Por una solicitud de empleo" onclick="eliminoCuadroDeTexto()" required>
+                            <label for="origen-contacto-4">Otro</label>
+                            <input type="radio" id="origen-contacto-otro" name="origin" value="Otro" onclick="generoCuadroDeTexto()" required>
+                            <div class="" id="origen-contacto-otro-detalle">
+                               
+
+                            </div>
+                        </div>
+                        </fieldset>
+                    </div>
+                    <div class="contact-message">
+                        <fieldset class="contact-fieldset">
+                            <legend>
+                                <h4>Tu mensaje</h4>
+                            </legend>
+                            <textarea name="message" id="message" placeholder="Cuéntame..." oninput="checkMensaje()"></textarea>
+                        </fieldset>
+                    </div>
+                    <div class="contact-button">
+                        <input class="send-button" id="enviar" type="submit" name="send" value="Enviar mensaje" oninput="createData()">
+                    </div>
+                    <div class="contact-history">
+                        <fieldset class="contact-fieldset" id="contact-history-list">
+                            <legend>
+                                <h4>Algunas personas que ya se han interesado en el pasado</h4>
+                            </legend>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>
+            +34 629 645 777 |
+            <a href="mailto:correo@oscaranton.com?subject=Contacto desde la Web con CV"> correo@oscaranton.com </a>
+        </span>
+    </footer>
+
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/form.js"></script>
+    <script src="./scripts/ajax.js"></script>
+</body>
+
+</html>
