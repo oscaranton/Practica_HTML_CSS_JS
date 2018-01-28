@@ -16,7 +16,7 @@ function getData() {
 
 function createData() {
   var data = {
-    name: document.getElementById("nombre").value + document.getElementById("apellido").value
+    name: JSON.stringify(document.getElementById("nombre").value + "\ " + document.getElementById("apellido").value)
   };
   makeRequest("POST", "http://localhost:8000/api/task", data, function() {
     console.log("Datos creados correctamente.");

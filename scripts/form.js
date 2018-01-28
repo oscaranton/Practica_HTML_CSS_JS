@@ -14,7 +14,7 @@ var submitButton = document.getElementById("enviar");
 
 /* Creación de un array con las palabras del texto de mensaje y sin los espacios*/
 
-var mensajeInput;
+var mensajeInput = "";
 function checkMensaje() {
   mensajeInput = document.getElementById("message").value.split(" ");
   var espacioEliminar = "";
@@ -28,7 +28,7 @@ function checkMensaje() {
 
 /* Creación / Eliminacion de un area de texto segun el radio button seleccionado */
 
-var textareatocreate;
+var textareatocreate = "";
 function generoCuadroDeTexto() {
   if (document.getElementById("message-origin")) {
   } else {
@@ -98,14 +98,14 @@ form.addEventListener("submit", function(event) {
       "El texto es demasiado largo. Mira a ver si me puedes decir lo mismo en 150 palabras o menos."
     );
     event.preventDefault();
-    mensajeInput.focus();
+    //mensajeInput.focus();
     return false;
   }
 
   if ((mensajeInput.length == 0)) {
     alert("Escríbeme algo");
     event.preventDefault();
-    mensajeInput.focus();
+    //mensajeInput.focus();
     return false;
   }
 
@@ -116,6 +116,8 @@ form.addEventListener("submit", function(event) {
     //form.reset();
     //sendNotification("Formulario recibido", "Gracias por participar");
     submitButton.removeAttribute("disabled");
+    alert("Mensaje enviado");
     console.log("Mensaje enviado");
+    createData();
   }, 1000);
 });
